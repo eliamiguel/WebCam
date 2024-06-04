@@ -36,7 +36,6 @@ const botaoBaixarFoto = ()=>{
    baixar.appendChild(link)
    baixar.classList.remove('baixar')
    document.getElementById('button').classList.add('baixar')
-   document.getElementById('outraFoto').classList.remove('baixar')
    return link 
 }
 
